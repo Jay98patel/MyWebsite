@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+//************Animated Text  ******************
+.slider .text,
+.typed-cursor {
+    display: inline;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.excellence {
+    color: blue;
+}
+
+//************Animated Text  ******************
+body {
+    height: 2000px;
+}
+
+@media screen and (max-width: 420px) {
+    .slider .text,
+    .typed-cursor {
+        display: inline;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .cta-btn {
+        height: 200px;
+        grid-template-columns: 200px;
+        grid-template-rows: repeat(6, 1fr);
+    }
+}

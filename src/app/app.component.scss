@@ -1,0 +1,37 @@
+.logo-size {
+    width: 120px;
+    height: 50px;
+    left: 50px;
+}
+
+// -------------------styles for navbar---------------------
+.navbar {
+    padding: 10px 5px;
+    background-color: #34495e !important;
+    border-bottom: none !important;
+    display: flex;
+}
+
+.navbar ul li a {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition: all 0.5s ease-in;
+}
+
+.navbar ul li a:hover {
+    color: deepskyblue !important;
+}
+
+.navbar-toggler {
+    border: 1px solid white !important;
+    transition: all 0.5s ease-in;
+}
+
+.navbar-toggler:hover {
+    color: deepskyblue !important;
+}
+
+// -------------------styles for navbar ends---------------------
