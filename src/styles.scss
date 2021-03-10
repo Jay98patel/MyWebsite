@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
+@import '~@angular/material/theming';
+// Plus imports for other components in your app.
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +22,7 @@
 
 //************Animated Text  ******************
 body {
-    height: 2000px;
+    height: 3000px;
 }
 
 @media screen and (max-width: 420px) {

@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-
+import * as CryptoJS from 'crypto-js';
 @Component({
   selector: 'app-about-me',
   templateUrl: './about-me.component.html',
@@ -15,8 +15,13 @@ export class AboutMeComponent implements OnInit {
   thirdline="I am brainstorming at conferences around the world;";
   forthLine="And I am meeting more people and creating new opportunities."
   personal='<p>'+this.personalLine+'</p><ul class="ml-4"><li >'+this.firstLine+'</li><li>'+this.secondLine+'</li><li >'+this.thirdline+'</li><li>'+this.forthLine+'</ul>';
+  
+  
 
-  constructor() { }
+  constructor() { 
+  }
+
+ 
 
   ngOnInit(): void {
   }

@@ -1,0 +1,37 @@
+<section class="technical-skills">
+    <div class="container">
+        <div class="row mt-4 col-md-12 justify-content-center">
+            <div class="about-title border-bottom border-dark">
+                <h3 class="mt-3">LET'S GET IN TOUCH</h3>
+            </div>
+            <p class="text-center mt-5">Need anything built, want to work together or simply want to have a chat? Drop me an e-mail at itsj10.jey@gmail.com or simply fill out the form below and I will reply to you soon!</p>
+        </div>
+        <div class="row mt-4">
+            <div class="col-6">
+                <mat-card-content>
+                    <form #Hform>
+                        <mat-form-field class="full-width-input">
+                            <input matInput formControlName="firstname" placeholder="First Name*">
+                        </mat-form-field>
+                        <mat-form-field class="full-width-input">
+                            <input matInput formControlName="email" placeholder="Email id*">
+                        </mat-form-field>
+                        <mat-form-field class="full-width-input">
+                            <mat-label>Message</mat-label>
+                            <textarea matInput></textarea>
+                        </mat-form-field>
+                        <button mat-raised-button color="primary" (click)="onsaveInfo()" type="submit">Submit</button>
+                    </form>
+                </mat-card-content>
+            </div>
+            <div class="col-6">
+
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</section>

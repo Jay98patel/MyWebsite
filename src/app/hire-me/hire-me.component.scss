@@ -1,0 +1,34 @@
+$background-dark: #512DA8;
+.technical-skills {
+    background-color: rgb(223, 219, 219);
+}
+
+.row {
+    font-family: oswald;
+}
+
+.full-width-input {
+    width: 80%;
+}
+
+.normal-form {
+    margin: 10px
+}
+
+.mat-card {
+    max-width: 400px;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.mat-form-field {
+    display: block;
+}
+
+.background-primary {
+    background-color: $background-dark!important;
+}
+
+.text-floral-white {
+    color: floralwhite!important;
+}

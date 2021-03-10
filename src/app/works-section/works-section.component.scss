@@ -1,0 +1,56 @@
+.row {
+    justify-content: center;
+    font-family: oswald;
+}
+
+.img-size {
+    height: 60%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.service-wrap {
+    overflow: hidden;
+    padding: 10px 20px;
+    position: relative;
+    transition: all 0.5s ease 0s;
+    z-index: 9;
+    margin-top: 20px;
+}
+
+.service-wrap::before,
+.service-wrap::after {
+    content: "";
+    height: 300%;
+    position: absolute;
+    transform: rotate(45deg);
+    width: 120%;
+    z-index: -9;
+    transition: all 0.5s;
+    opacity: 0;
+    background: #8cc4fc;
+}
+
+.service-wrap:before {
+    top: -77px;
+    left: 100%;
+}
+
+.service-wrap:hover:before {
+    left: 77px;
+    opacity: 1;
+}
+
+.service-wrap:after {
+    right: 100%;
+    bottom: -100px;
+}
+
+.service-wrap:hover:after {
+    right: -150px;
+    opacity: 1;
+}
+
+.service-wrap:hover {
+    color: white;
+}
